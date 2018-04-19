@@ -41,6 +41,7 @@ My project includes the following files:
 * drive.py for driving the car in autonomous mode
 * model.h5 containing a trained convolution neural network
 * writeup_P3_FengChen.md summarizing the results
+* The final video can be found on Youtube https://youtu.be/LnNRE4QkcAU
 
 #### 2. Submission includes functional code
 Using the Udacity provided simulator and my drive.py file, the car can be driven autonomously around the track by executing
