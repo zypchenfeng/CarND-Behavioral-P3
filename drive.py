@@ -25,10 +25,10 @@ app = Flask(__name__)
 model = None
 prev_image_array = None
 
-import tensorflow as tf
-config = tf.ConfigProto()
-config.gpu_options.allow_growth = True
-session = tf.Session(config=config)
+# import tensorflow as tf
+# config = tf.ConfigProto()
+# config.gpu_options.allow_growth = True
+# session = tf.Session(config=config)
 
 class SimplePIController:
     def __init__(self, Kp, Ki):
